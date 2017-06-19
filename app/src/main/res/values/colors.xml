@@ -8,4 +8,6 @@
     <color name="subMenuTxt">#1c1c1c</color>
     <color name="menuVerticalLineBg">#bb3f50</color>
     <color name="bottomBarBg">#232323</color>
+    <color name="edittextBorder">#cbcbcb</color>
+    <color name="hint">#efefef</color>
 </resources>

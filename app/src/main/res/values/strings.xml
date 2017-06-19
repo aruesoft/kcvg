@@ -5,4 +5,9 @@
     <string name="menu_2">System</string>
     <string name="menu_3">Vehicle inspection</string>
     <string name="all_right_reserved">\u00A9 KIA MOTORS CORP. ALL RIGHT RESERVED</string>
+    <string name="login">Login</string>
+    <string name="message_login">When you log in, you\'ll receive a wide variety of information from Kia Motors.</string>
+    <string name="id">id</string>
+    <string name="password">PASSWORD</string>
+    <string name="login_capital">LOGIN</string>
 </resources>
