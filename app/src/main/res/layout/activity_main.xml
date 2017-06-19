@@ -94,7 +94,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/ic_account_circle_36pt"
+                    android:src="@drawable/ic_g_translate_36pt"
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="30dp"/>
             </LinearLayout>
