@@ -1,0 +1,25 @@
+@charset "utf-8";
+#login_wrap .width_logo{ display: inline-block; }
+#login_wrap .height_logo{ display: none; }
+#login_wrap{ max-width:1024px; height:744px; padding:110px 115px; background: url(" /media/img/06_member/width_bg.jpg"); }
+
+#login_wrap .login { text-align:center;  width:310px;}
+#login_wrap .tt{ padding: 20px 0 35px 0; font-size:23px; }
+#login_wrap .tt span{ color:#ad172b; }
+
+#login_wrap ul li { overflow: hidden; vertical-align: top; padding: 5px 0; }
+#login_wrap ul li i{ width:40px; height:40px; text-align: center; line-height:40px; color:#fff; vertical-align:middle; background: #ad172b; }
+#login_wrap input{ width:270px; height:40px; border:1px solid #ad172b; background: rgba(255,255,255,0.1); }
+#login_wrap .btn_end{  display: block; width:100%; height:40px;  line-height:40px; padding: 0 30px; color: #fff; background: #ad172b; }
+
+#login_wrap .btn li{ float:left; padding:5px 0 0 0 ; }
+#login_wrap .btn li:nth-child(1){ padding:5px 10px 0 0; }
+#login_wrap .btn li a{ display: block; width:150px; height:40px; line-height:40px; color: #ad172b; border:1px solid #ad172b; background: rgba(255,255,255,0.5); }
+
+@media (max-width:900px) {
+	#login_wrap .width_logo{ display: none; }
+	#login_wrap .height_logo{ display: inline-block; }
+	#login_wrap{ max-width:768px; height:1000px; padding:80px 0; background: url(" /media/img/06_member/height_bg.jpg"); }
+	#login_wrap .login { margin:0 auto; }
+	#login_wrap .tt{ color:#fff; }
+}

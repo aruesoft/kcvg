@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* -- 검색 -- */
+	#search { min-height: 730px; }
+	#search .search_word{overflow: hidden; padding: 3% 0; line-height: 130%; background: #e5e5e5; text-align: center; }
+	.search_word p { margin: 20px 0 0 0; padding:0; }
+	#search span{ font-weight: 800; color: #c4172c; }
+	#search b{ font-weight: 800; color: #c4172c; }
+	#search .search_word input[type="text"] { width: 30%; height: 40px; border: 1px solid #ad172b; border-right: 0; padding: 0 0 0 2%; font-weight: 800; line-height: 40px; border-radius:10px 0 0 10px; }
+	#search .search_word .button { display: inline-block; width: 40px; height: 40px; border: 1px solid #ad172b; border-left: 0; vertical-align: top; background: #fff;  border-radius:0 10px 10px 0;}
+	#search .search_word .button:before{ content: "\f002"; font:normal normal normal 14px/1 FontAwesome; line-height: 40px; }
+
+/* -- 검색결과 -- */
+	#search .complete li{ padding: 1%; font-size: 15px; border-bottom: 1px solid #e5e5e5; }
+	#search .result div{overflow : hidden; text-overflow: ellipsis; display: -webkit-box;	-webkit-line-clamp: 2; -webkit-box-orient: vertical; width:100%; }
+	#search .result *{ padding:0.5% 0 0 0;}
+	#search .result a{ display: block; }
+
+	#search .result .route{ font-size: 16px; }
+	#search .result .route a:before{ content:"ㆍ"; }

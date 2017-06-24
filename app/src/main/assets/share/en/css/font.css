@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* kia font */
+@font-face{
+  font-family:'KIA';
+  font-style: normal;
+  font-weight: 300;
+src:url('../../en/css/font/KIA_Light.eot');
+src:local(※),
+url('../../en/css/font/KIA_Light.woff') format('woff'),
+url('../../en/css/font/KIA_Light.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'KIA';
+  font-style: normal;
+  font-weight: 500;
+src:url('../../en/css/font/KIA_Medium.eot');
+src:local(※),
+url('../../en/css/font/KIA_Medium.woff') format('woff'),
+url('../../en/css/font/KIA_Medium.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'KIA';
+  font-style: normal;
+  font-weight: 800;
+src:url('../../en/css/font/KIA_Bold.eot');
+src:local(※),
+url('../../en/css/font/KIA_Bold.woff') format('woff'),
+url('../../en/css/font/KIA_Bold.ttf') format('truetype');
+}

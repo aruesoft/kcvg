@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* sub페이지에 관한 전체적인 내용 */
+
+/* -- 포인트 컬러 -- */
+	.co_red { color: #c4172c !important;}
+	.bg_red{background: #c4172c;}
+	.co_green { color: #39b54a !important;}
+	.bg_green { color: #39b54a !important;}
+	.col_gray{color: #555;}
+	.bg_gray{background: #555;}
+	.co_blue{ color: #0070c0; }
+	.bg_blue{ background: #0070c0; }
+
+/* -- 기준간격 -- */
+	.pt_1p{padding-top: 1%;}
+	.pt_2p{padding-top: 2%;}
+	.pt_3p{padding-top: 3%;}
+	.pt_5p{padding-top: 5%;}
+	.pt_10p{padding-top: 10%;}
+
+	.pl{padding-left: 1%;}
+	.pl_2p{padding-left: 2%;}
+
+	.pr{padding-right: 1%;}
+
+/* -- 넓이 -- */
+	.w10p { float: left; width:10%; }
+	.w20p { float: left; width:20%; }
+	.w30p { float: left; width:30%; }
+	.w40p { float: left; width:40%; }
+	.w50p { float: left; width:50%; }
+	.w60p { float: left; width:60%; }
+	.w70p { float: left; width:70%; }
+	.w80p { float: left; width:80%; }
+	.w90p { float: left; width:90%; }
+
+	.w365p { float: left; width: 36.5%; }
+	.w635p { float: left; width: 63.5%; }
+
+	.clear_div{ clear:both; }
+
+/* -- 서브/바디 전체사이즈 -- */
+	#submenu{width: 23%; float: left;}
+	.content_wrap{ position: relative; width: 100%; max-width: 904px; margin: 0 auto; }
+
+/* -- 제목 -- */
+	.title { padding: 30px 0 30px 0; }
+	.title h1{ position: relative; padding: 0 0 10px 0; font-size:20px; font-weight: 500; text-align: center; color: #000; }
+	.title h1::after{ content: ""; position: absolute; bottom: 0; left: 0; right: 0; display: inline-block; width: 45px; height: 1px; margin: 0 auto; background: #ad172b; }
+
+	.system h2 { padding: 30px 0 30px 0; }
+	.system h2 hr{ display: none; }
+	.system h2 span { position: relative; display: block; padding: 0 0 10px 0; font-size:20px; font-weight: 500; text-align: center; color: #000; }
+	.system h2 span::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; display: inline-block; width: 45px; height: 1px; margin: 0 auto; background: #ad172b; }
+
+	.system h3{ font-size: 25px; font-weight: 800; }
+	.tt_up{ text-transform: uppercase; }
+	.tt_cap{ text-transform:capitalize; }
+	.tt_low{ text-transform:lowercase; }
+
+/* -- 페이지 서브 타이틀 -- */
+	.content_head { position: relative; }
+	.content_head .sidetitle { position:relative; padding: 35px 0 0 0; font-size: 20px; text-align: center; line-height:1em; color: #000; }
+
+/* ------------------------------ 모바일 ------------------------------ */
+@media (max-width:768px){
+
+/* -- 서브/바디 전체사이즈 -- */
+	.content_wrap{width: 90%;}
+
+}

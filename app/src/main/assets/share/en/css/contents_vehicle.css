@@ -1,0 +1,44 @@
+@charset "utf-8";
+    #vr_wrap{ background: -webkit-radial-gradient(circle, #fff, #afafaf);
+        background: -o-radial-gradient(circle, #fff, #afafaf);
+        background: -moz-radial-gradient(circle, #fff, #afafaf);
+        background: radial-gradient(circle, #fff, #afafaf); }
+    /*#vr{ padding:100px 0 60px 0; }*/
+    .title{ padding: 30px 0 30px 0; text-align: center; }
+    .title h1 { position: relative; display: inline-block; padding: 0 0 10px 0; font-size: 20px; font-weight: 500; text-align: center; color: #000; }
+    .title h1::after{ content: ""; position: absolute; bottom: 0; left: 0; right: 0; display: inline-block; width: 90%; height: 2px; margin: 0 auto; background: #ad172b; }
+
+    #body_wrap_vr{ margin: -120px 0 0 0; }
+
+    /* vr페이지 */
+    #body_wrap_vr div{text-align: center;}
+    .vr_text{margin: 20px 0 0 0; text-align: center; vertical-align: text-top; /*text-transform: uppercase;*/}
+    .vr_text span{ font-weight: 800; font-size: 20px; }
+
+@media (max-width:799px) {
+
+}
+
+/*** VR초기화 ***/
+    #vr_reel, #vr_reel-reel { margin: 0 auto; width: 960px; }
+    #vr_reel { opacity: 0.7; }
+    /*#vr_reel-reel { background: url("../../../media/img/icon/bg.jpg") no-repeat; background-size: contain; }*/
+    .reel-preloader, .reel-indicator { background-color: #C4172C !important; }
+    .reel-annotation { display: none; color: #fff; font-weight: bold; text-align: center; line-height:1.0; }
+    .reel-annotation a { text-decoration: none; color: #fff; }
+    .anno_title { margin:0; padding: 3px 5px; font-size: 14.88px; text-shadow: #000 0px 2px, #000 2px 0px, #000 -2px 0px, #000 0px -2px, #000 -1.4px -1.4px, #000 1.4px 1.4px, #000 1.4px -1.4px, #000 -1.4px 1.4px; }
+    .reel-annotation img { line-height:1.0; }
+    .anno_title, .reel-annotation img { transition: all .2s ease-in-out; }
+
+/*** tablet ***/
+@media (max-width:800px) {
+    #vr_reel, #vr_reel-reel { width: 560px; }
+    .anno_title { font-size: 10px;}
+}
+
+/*** mobile ***/
+@media (max-width:420px) {
+    #vr_reel, #vr_reel-reel { width: 290px; }
+    .anno_title {  display: none;}
+    .reel-annotation { display: none !important; }	/* 모바일 작업전 */
+}

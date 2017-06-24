@@ -19,7 +19,7 @@ public class MainActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://kcvgapp.jjworxdns.com/test/html/00_main/index.html");
+        webView.loadUrl("file:///android_asset/en-US/html/02_system/01_en_01.html");
         webView.setWebViewClient(new WebViewClientClass());
     }
 

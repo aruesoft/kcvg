@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.profile p{ margin: 0 0 1% 0; padding: 2% 0 0.5% 0; font-size: 17px; border-bottom: 2px dotted #818181; }
+.profile p:nth-of-type(1){ padding: 0 0 0.5% 0; }
+.profile th{ padding:1%; text-align: left; font-weight: 500; border-bottom: 1px solid #d1d1d1; }
+.profile td{ padding:1%; border-bottom: 1px solid #d1d1d1; }
+.profile .btn{ text-align: center; }
+
+.privacy pre { font-family: 'KIA', sans-serif; font-size: 16px; }
+
+.privacy dt{ font-size:18px; font-weight: 600; padding:10px 0 30px 0;}
+.privacy dd{padding:0 0 20px 0;}
+
+.terms dt{ font-size:18px; font-weight: 600; }
+.terms dd{ padding:10px 0 30px 0; }

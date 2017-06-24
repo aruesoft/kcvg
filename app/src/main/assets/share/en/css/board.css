@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* 게시판 공통 */
+	#board .tt{ padding:0 0 1% 0; text-align: right; }
+	#board .file_tt{ font-size:12px; }
+
+/* -- 게시판 쓰기 -- */
+	caption{display: none;}
+	#board .writing{ border-top: 1px solid #818181; }
+	#board .writing tr th{ padding:2%; text-align: left; vertical-align: top; font-weight: 500; border-bottom: 1px solid #d1d1d1; }
+	#board .writing tr td{ padding:2%; border-bottom: 1px solid #d1d1d1; }
+	#board #cont {height: 100px;}
+	#board input[type="text"]{ width:80%; }
+
+/* -- 게시판 버튼 -- */
+	#board .btn{ padding: 2% 0; text-align: center; }
+	#board .btn input[type="submit"]{ height: 40px; margin: 0 auto; padding: 0 5%; color: #fff; background: #c4172c; }
+	#board .btn .cancel{ display: inline-block; vertical-align: middle; height: 40px; line-height: 40px; margin: 0 10px 0 0; padding: 0 5%; color: #fff; background: #797979; }
+	#board .area input[type="button"]{ width: 20px; height: 20px; line-height: 20px; margin: 0 5px; padding: 0; color: #fff; border: 0; background: #c4172c; }
+	#board .attach_row{ display: block; }
+	#board .btn .ok{ display: inline-block; height: 40px; line-height: 40px; margin: 0 auto; padding: 0 5%; color: #fff; background: #c4172c; }
+
+/* 게시판 리스트 */
+	#board .list{ text-align:center;}
+	#board .list th{ padding:15px 0; border-top:1px solid #818181; border-bottom:1px solid #d1d1d1; background: #f2f2f2; }
+	#board .list td{ padding:15px 0; border-bottom:1px solid #d1d1d1; }
+	#board .list .subject{ display: block;
+    width: 100%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+/* 차량점검주기표 */
+#board #checklist .search{ width:80%; float:left; }
+#board #checklist .search th{ padding:15px 0; text-align:left; }
+#board #checklist .search td{ padding:15px 0; text-align:left; }
+#board #checklist .btn{ padding: 85px 0 0 0; }

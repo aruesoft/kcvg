@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* 시스템 페이지 */
+	.grid_u{width: 100%;}
+	.grid_u li{float: left; width: 17%; margin: 0 1.5% 3% 1.5%;}
+	.grid_u li a{display: block; position: relative; padding: 42% 1%; border: 2px solid #ccc; border-radius: 20px; text-align: center;}
+	.grid_u li a img{ width: 100%; max-width: 70px;}
+	.grid_u li span{position: absolute; top: 5px; left: 0; right: 0;}
+	.grid_u li a strong{position: absolute; bottom: 0; left: 0; right: 0; font-size: 1em; font-weight: 600; line-height: 110%; padding: 5%; text-transform: uppercase;}
+	.grid_u li:nth-child(1) a strong{ bottom:5px; }
+	.grid_u li:nth-child(2) a strong{ bottom:5px; }
+	.grid_u li:nth-child(3) a strong{ bottom:5px; }
+	.grid_u li:nth-child(4) a strong{ bottom:5px; }
+	.grid_u li:nth-child(6) a strong{ bottom:5px; }
+	.grid_u li:nth-child(7) a strong{ bottom:5px; }
+	.grid_u li:nth-child(8) a strong{ bottom:5px; }
+	.grid_u li:nth-child(9) a strong{ bottom:5px; }
+	.grid_u li a:hover{border: 2px solid #fff;}
+	.grid_u li a:hover .gray{color: #fff;}
+	.grid_u li a:hover .green{color: #fff !important;}
+	.grid_u li a:hover{background: #c4172c;}
+
+/*컨텐츠*/
+	.panel-container{ display: flex; flex-direction: row; overflow: hidden; xtouch-action: none; }
+	.panel-left{ flex: 0 0 auto; padding: 0; width: 250px; min-width:250px; max-width: 680px; white-space: nowrap; background:#fff; }
+	.splitter{ flex: 0 0 auto; z-index: 1; width: 40px;}
+
+/* -- 시스템 내용 -- */
+	.system{padding:0 0 5% 3%;}
+	.system img{ width: 100%; height: auto; }
+	.radius{ border-radius:0; }
+	.shadow{ border: 1px solid #dadada; }
+
+/* -- 차종별 -- */
+	.system .all { display: block; overflow: hidden; }
+	.system .pas, .system .suv, .system .hev, .system .ev { display: none; overflow: hidden; }
+	.system > div h3{display: none; text-transform: uppercase; margin: 0 0 3% 0; }
+
+/* -- 시스템 캡션 -- */
+	.system .caption ul{width: 95%; margin: 0 auto;}
+	.system .caption li{float: left; height: 100%; overflow: hidden;  width: 100%;  margin: 2% auto 0; font-size: 15px; }
+	.system .caption li:first-child{margin:0;}
+
+	.system .caption li a{display: block; }
+	.system .caption li span{ position: relative; float: left; color: #fff; margin: 0 5px 0 0; width: 30px; line-height: 30px; text-align: center; background: #c4172c; }
+	.system .caption li span:after{ content: ""; position: absolute; top: 10px; right: -5px;
+	border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid #c4172c; }
+
+	.system .caption li p{ display: block; margin: 0 0 0 40px; padding: 6px; line-height: 120%; color:#fff; background: #797979; }
+
+
+	.system .tab_4 ul{ width:100%; }
+	.system .tab_4 li{ width: 24%; margin: 0 0.5% !important; }
+
+	.system .tab_3 ul{ width:100%; }
+	.system .tab_3 li{ width: 32%; margin: 1% 0.5% 0 0.5% !important; }
+
+/* 비디오 */
+	.video_container{ overflow: hidden; border: 1px solid #e5e5e5; }
+
+/* 순차적 플레이 */
+	.system .avi{display: block; clear: both;}
+	.system .avi > li{width: 100%; }
+	.system .avi_play{display: block; clear: both;}
+	.system .avi_play > li{float: left; width:  25%; padding:0 0 0 0.5%;}
+	#cl > li{float: left; width:  23.5%; padding:0 0 0 0.5%;}
+
+	.system .avi span , .system .avi_play span { display: block; position: relative; margin: 5% 0 0 0; padding: 5% 0; text-align: center; color:#fff; cursor:pointer; background: #797979; }
+	.system .avi_play span.on{ color: #fff; background: #c4172c; }
+
+/* -- 사운드 -- */
+	.sound span { color:#4b4b4b; }
+	.sound img { width : 5% !important; vertical-align:middle; margin:-3px 5px 0 5px; }
+
+/* 텍스트 스타일 */
+	p{ padding:1% 0 0 0; }
+
+	.h1{ display: block; color: #0c121c; font-size: 20px; }
+	.h1:before{ content: ">"; float: left; font-size:1.5em; margin: 0 5px 0 0; color:#c4172c;}
+
+	.h2 { color:#000; }
+	.h2:before { content: "•"; }
+
+	.sort i{float: left; width: 20%; font-weight: 500; font-style: normal; }
+	.sort i:after{ content: "l"; margin: 0 15px 0 0; font-weight: 300; float: right; color: #ccc; }
+	.sort span{ float: right; width: 80%; }
+
+	.text_01 li:nth-child(1){ display: block; font-size: 17px; font-weight: 800; color:#000; }
+	.text_01 li:nth-child(2){ padding: 10px 0 0 20px; }
+
+	.text_02 li{ overflow:hidden; padding: 0 0 10px 20px; }
+	.text_02 span{ position:relative; float:left; width: 25%; padding:0 25px 0 0; vertical-align: top; font-size:1.1em; color:#c4172c; font-weight:800; }
+	.text_02 span:after{ content: "ㅣ"; position:absolute; top:2px; right:5px; font-weight: 100; color:#ccc; }
+	.text_02 p{ float:left; width: 75%; margin: 0; padding: 0; }
+
+/* 리스트 스타일 */
+	ol{ padding:1% 0 0 2%; }
+	ol li { position: relative; padding:0 0 0 20px; }
+	ol li:before{ content: "-"; position: absolute; display: inline-block; left: 0; }
+
+	.list_bar dt { font-weight: 800; color:#000; }
+	.list_bar dt:before { content: "•"; position: relative; display: inline-block;  margin: 0 10px; }
+	.list_bar dt:after { content: "-"; position: relative; display: inline-block;  margin: 0 10px; }
+	.list_bar dd:before{ content: "-"; position: relative; display: inline-block;  margin: 0 10px; }
+
+	.list_under dd:before{ content: "_"; position: relative; display: inline-block;  margin: 0 10px; }
+
+	.list_sty dt:before{ content: "•"; position: relative; display: inline-block;  margin: 0 10px; }
+	.list_sty dd:before{ content: "-"; position: relative; display: inline-block;  margin: 0 10px; }
+
+/* -- 이미지옆 텍스트 -- */
+	.text_img{ padding:0.5% 2% 0 2%; }
+	.text_video{ padding: 0 2% ; }
+
+/* 파일다운 */
+	.down{ text-align: right; }
+	.down a{ width:120px; text-align: left; margin:0 1%; color:#4b4b4b; }
+	.down img{ width: 30px; margin: -3px 0 0 2%; }
+
+/* 이미지 */
+	.img_w70p{ width:70%; margin: 0 auto; padding: 2% 2% 0 2%; border: 1px solid #e5e5e5; }
+	.img_w70p li{ float: left; padding: 2%; width:50%; }
+	.img_tt{ display: block; text-align: center; padding: 2% 0; }
+
+/* 화살표 */
+	.arrow_blue:before {content: ""; width:45px; height:26px; background:url('../../../media/img/02_system/10_cc/06_03.jpg'); vertical-align:middle; position: relative; display: inline-block; margin: 0 10px 0 0;}
+	.arrow_red:before {content: ""; width:45px; height:26px; background:url('../../../media/img/02_system/10_cc/06_04.jpg'); vertical-align:middle; position: relative; display: inline-block; margin: 0 10px 0 0;}
+
+/* 테이블 형태 3개 */
+	.table_3{ font-size:0px; }
+	.table_3 > div{display: inline-block; width:33.3%; margin:2% 0 0 0; padding: 0 1%; font-size:16px; vertical-align: top; }
+	.table_3 > div b{ display:block; text-align:center; }
+
+/* 공식 */
+	.formula{ margin: 2%; padding: 2%; font-size: 1.2em; font-weight: 800; text-align: center; background: #e5e5e5; border-radius: 5px; box-shadow: 1px 1px 1px; }
+
+/* ---------- 테블릿 세로 ------------- */
+
+@media (min-width:768px) and (max-width:768px) {
+	.grid_u li{ width:22% !important; }
+	.grid_u li a{ padding: 43% 1%; }
+}

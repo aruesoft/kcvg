@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* Tag Definition */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+/* 전체 선택자 사용시 위 속성 외에는 지정하지 마세요. */
+* html { overflow: scroll; overflow-x: auto; }/* [IE] 프레임안의가로스크롤문제해결 */
+html, body { min-height: 100%; margin: 0; padding: 0; background: transparent; } /* [IE] 배경색을지정해서화면이뭉개지는문제해결 */
+html { height: 100%; }
+h1,h2,h3,h4,h5,h6,input,button,textarea,select,table{ font-family:inherit; }
+
+* html body { height: 100%; }
+:root body { /* font-size:1em; */ }
+table, pre { font-size: 0.97em;line-height:1.7em; } /* DOCTYPE 없으면 속성 상속 안됨 */
+
+table {table-layout: fixed; width: 100%; font-size: 1em; text-indent: 0; border-collapse: collapse; }
+
+a:link, a:visited, a:hover,a:focus,a:active { text-decoration:none; color:inherit; }
+
+img,fieldset,iframe{ border:0 none; vertical-align: middle; }
+
+ul, ul li, ol, ol li { list-style:none; padding:0; margin:0; }
+ul:after { display:block; height:0; clear:both; float:none; content:""; }
+
+dl, dt, dd { padding:0; margin:0; }
+
+video{ width: 101%; display: block; margin: -1px 0 0 -1px; }
+
+/* hide download button on Chrome 55+ */
+/*video::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+video::-webkit-media-controls-enclosure {
+    width: calc(99% + 32px);
+    margin-left: auto;
+}*/
+
+strong { font-weight: bold; }
+em { color: #f75; } em em { color: #c09; }
+sup, sub { font-size: 0.85em; }
+pre /* 형식 유지 컨텐츠 자동개행 */
+{
+white-space: pre-wrap; /* css3 */
+white-space: -moz-pre-wrap; /* Mozilla, since1999 */
+white-space: -pre-wrap; /* Op4-6 */
+white-space: -o-pre-wrap; /* Op7 */
+word-wrap: break-word; /* IE 5.5+ */
+margin:0;
+}
+
+select{box-sizing: border-box; border:1px solid #cdcdcd; background:#fff; height: 40px; padding: 0 0 0 5px;
+	border-radius: 0px; /* iOS 둥근모서리 제거 */
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      vertical-align: middle;}
+
+input {box-sizing: border-box; border:1px solid #cdcdcd; background:#fff; height: 32px; color: #222; vertical-align: middle; padding: 0 7px; }
+textarea { box-sizing:border-box; border:1px solid #cdcdcd; width:100%; height:100%; resize:none; vertical-align: middle; padding: 7px;}
+
+button, input[type="button"],input[type="submit"],input[type="image"] {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	border:0;
+	background:none;
+	cursor:pointer;
+	outline:0;
+	text-decoration:none;
+	white-space:nowrap;
+	vertical-align:middle;
+	font-family:inherit;
+	overflow:visible;/* for IE7 */
+	font-size: 1em;
+}
+
+/* 사파리에서 버튼 라운드 금지 */
+button, input, textarea{
+	border-radius:0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor:pointer;
+}
+
+:focus{
+	outline-style: none;
+	-moz-outline-style:none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:#c2c2c2;
+	font-size:0.9em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:#c2c2c2;
+	font-size:0.9em;
+	opacity:1;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	/* IE 7 and olders */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	/* Netscape */
+	-moz-opacity: 1;
+	/* Safari 1.x */
+	-khtml-opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:#c2c2c2;
+	font-size:0.9em;
+	opacity:1;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	/* IE 7 and olders */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	/* Netscape */
+	-moz-opacity: 1;
+	/* Safari 1.x */
+	-khtml-opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:#c2c2c2;
+	font-size:0.9em;
+}
+
+/* Chrome 55+ 다운로드 버튼 숨기기 */
+video::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+video::-webkit-media-controls-enclosure {
+    width: calc(99% + 32px);
+    margin-left: auto;
+}

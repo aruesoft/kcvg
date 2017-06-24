@@ -1,0 +1,686 @@
+@charset "UTF-8";
+
+/* frame-1 */
+.frame-1 #hotspot0		{ left: 125px;	top: 280px; }
+.frame-1 #hotspot1		{ left: 205px;	top: 235px; }
+.frame-1 #hotspot2		{ left: 295px;	top: 270px; }
+.frame-1 #hotspot3		{ left: 357px;	top: 328px; }
+.frame-1 #hotspot4		{ left: 435px;	top: 200px; }
+.frame-1 #hotspot6		{ left: 656px;	top: 245px; }
+/* frame-2 */
+.frame-2 #hotspot0		{ left: 132px;	top: 280px; }
+.frame-2 #hotspot1		{ left: 210px;	top: 235px; }
+.frame-2 #hotspot2		{ left: 290px;	top: 270px; }
+.frame-2 #hotspot3		{ left: 358px;	top: 328px; }
+.frame-2 #hotspot4		{ left: 407px;	top: 200px; }
+.frame-2 #hotspot6		{ left: 640px;	top: 245px; }
+/* frame-3 */
+.frame-3 #hotspot0		{ left: 153px;	top: 280px; }
+.frame-3 #hotspot1		{ left: 221px;	top: 235px; }
+.frame-3 #hotspot2		{ left: 282px;	top: 270px; }
+.frame-3 #hotspot3		{ left: 360px;	top: 328px; }
+.frame-3 #hotspot4		{ left: 380px;	top: 200px; }
+.frame-3 #hotspot6		{ left: 616px;	top: 245px; }
+/* frame-4 */
+.frame-4 #hotspot0		{ left: 180px;	top: 280px; }
+.frame-4 #hotspot1		{ left: 240px;	top: 235px; }
+.frame-4 #hotspot2		{ left: 284px;	top: 270px; }
+.frame-4 #hotspot3		{ left: 368px;	top: 328px; }
+.frame-4 #hotspot4		{ left: 354px;	top: 200px; }
+.frame-4 #hotspot6		{ left: 583px;	top: 245px; }
+/* frame-5 */
+.frame-5 #hotspot1		{ left: 268px;	top: 235px; }
+.frame-5 #hotspot2		{ left: 282px;	top: 270px; }
+.frame-5 #hotspot3		{ left: 374px;	top: 328px; }
+.frame-5 #hotspot4		{ left: 469px;	top: 189px; }
+.frame-5 #hotspot6		{ left: 546px;	top: 245px; }
+.frame-5 #hotspot7		{ left: 290px;	top: 315px; }
+/* frame-6 */
+.frame-6 #hotspot1		{ left: 295px;	top: 235px; }
+.frame-6 #hotspot2		{ left: 291px;	top: 270px; }
+.frame-6 #hotspot3		{ left: 385px;	top: 328px; }
+.frame-6 #hotspot4		{ left: 428px;	top: 189px; }
+.frame-6 #hotspot6		{ left: 503px;	top: 245px; }
+.frame-6 #hotspot7		{ left: 304px;	top: 315px; }
+/* frame-7 */
+.frame-7 #hotspot1		{ left: 325px;	top: 235px; }
+.frame-7 #hotspot4		{ left: 382px;	top: 189px; }
+.frame-7 #hotspot6		{ left: 458px;	top: 245px; }
+.frame-7 #hotspot7		{ left: 323px;	top: 315px; }
+/* frame-8 */
+.frame-8 #hotspot1		{ left: 346px;	top: 235px; }
+.frame-8 #hotspot6		{ left: 411px;	top: 245px; }
+.frame-8 #hotspot7		{ left: 333px;	top: 315px; }
+.frame-8 #hotspot8		{ left: 362px;	top: 203px; }
+/* frame-9 */
+.frame-9 #hotspot6		{ left: 364px;	top: 245px; }
+.frame-9 #hotspot8		{ left: 371px;	top: 203px; }
+.frame-9 #hotspot9		{ left: 542px;	top: 300px; }
+/* frame-10 */
+.frame-10 #hotspot6		{ left: 320px;	top: 245px; }
+.frame-10 #hotspot8		{ left: 382px;	top: 203px; }
+.frame-10 #hotspot9		{ left: 512px;	top: 300px; }
+/* frame-11 */
+.frame-11 #hotspot6		{ left: 495px;	top: 245px; }
+.frame-11 #hotspot8		{ left: 394px;	top: 203px; }
+.frame-11 #hotspot9		{ left: 485px;	top: 300px; }
+/* frame-12 */
+.frame-12 #hotspot1		{ left: 572px;	top: 235px; }
+.frame-12 #hotspot6		{ left: 451px;	top: 245px; }
+.frame-12 #hotspot7		{ left: 541px;	top: 315px; }
+.frame-12 #hotspot8		{ left: 408px;	top: 203px; }
+.frame-12 #hotspot9		{ left: 430px;	top: 300px; }
+/* frame-13 */
+.frame-13 #hotspot1		{ left: 588px;	top: 235px; }
+.frame-13 #hotspot6		{ left: 404px;	top: 245px; }
+.frame-13 #hotspot7		{ left: 558px;	top: 315px; }
+.frame-13 #hotspot8		{ left: 424px;	top: 203px; }
+.frame-13 #hotspot9		{ left: 393px;	top: 300px; }
+/* frame-14 */
+.frame-14 #hotspot1		{ left: 613px;	top: 235px; }
+.frame-14 #hotspot3		{ left: 502px;	top: 323px; }
+.frame-14 #hotspot6		{ left: 362px;	top: 245px; }
+.frame-14 #hotspot7		{ left: 577px;	top: 315px; }
+.frame-14 #hotspot8		{ left: 439px;	top: 203px; }
+.frame-14 #hotspot9		{ left: 353px;	top: 300px; }
+/* frame-15 */
+.frame-15 #hotspot1		{ left: 636px;	top: 235px; }
+.frame-15 #hotspot3		{ left: 512px;	top: 323px; }
+.frame-15 #hotspot6		{ left: 320px;	top: 245px; }
+.frame-15 #hotspot7		{ left: 592px;	top: 315px; }
+.frame-15 #hotspot8		{ left: 456px;	top: 203px; }
+.frame-15 #hotspot9		{ left: 312px;	top: 300px; }
+/* frame-16 */
+.frame-16 #hotspot1		{ left: 656px;	top: 235px; }
+.frame-16 #hotspot3		{ left: 520px;	top: 323px; }
+.frame-16 #hotspot6		{ left: 286px;	top: 245px; }
+.frame-16 #hotspot7		{ left: 604px;	top: 315px; }
+.frame-16 #hotspot8		{ left: 473px;	top: 203px; }
+.frame-16 #hotspot9		{ left: 297px;	top: 300px; }
+/* frame-17 */
+.frame-17 #hotspot1		{ left: 675px;	top: 235px; }
+.frame-17 #hotspot3		{ left: 528px;	top: 323px; }
+.frame-17 #hotspot6		{ left: 256px;	top: 245px; }
+.frame-17 #hotspot7		{ left: 612px;	top: 315px; }
+.frame-17 #hotspot8		{ left: 487px;	top: 203px; }
+/* frame-18 */
+.frame-18 #hotspot0		{ left: 784px;	top: 280px; }
+.frame-18 #hotspot1		{ left: 690px;	top: 235px; }
+.frame-18 #hotspot3		{ left: 535px;	top: 323px; }
+.frame-18 #hotspot4		{ left: 446px;	top: 199px; }
+.frame-18 #hotspot6		{ left: 232px;	top: 245px; }
+/* frame-19 */
+.frame-19 #hotspot0		{ left: 777px;	top: 280px; }
+.frame-19 #hotspot1		{ left: 698px;	top: 235px; }
+.frame-19 #hotspot3		{ left: 537px;	top: 323px; }
+.frame-19 #hotspot4		{ left: 420px;	top: 199px; }
+.frame-19 #hotspot6		{ left: 216px;	top: 245px; }
+/* frame-20 */
+.frame-20 #hotspot0		{ left: 770px;	top: 280px; }
+.frame-20 #hotspot1		{ left: 694px;	top: 235px; }
+.frame-20 #hotspot3		{ left: 535px;	top: 323px; }
+.frame-20 #hotspot4		{ left: 395px;	top: 199px; }
+.frame-20 #hotspot6		{ left: 210px;	top: 245px; }
+/* frame-21 */
+.frame-21 #hotspot0		{ left: 778px;	top: 280px; }
+.frame-21 #hotspot1		{ left: 679px;	top: 235px; }
+.frame-21 #hotspot3		{ left: 530px;	top: 323px; }
+.frame-21 #hotspot4		{ left: 370px;	top: 199px; }
+.frame-21 #hotspot6		{ left: 207px;	top: 245px; }
+/* frame-22 */
+.frame-22 #hotspot0		{ left: 755px;	top: 280px; }
+.frame-22 #hotspot1		{ left: 662px;	top: 235px; }
+.frame-22 #hotspot3		{ left: 523px;	top: 323px; }
+.frame-22 #hotspot4		{ left: 345px;	top: 199px; }
+.frame-22 #hotspot6		{ left: 212px;	top: 245px; }
+/* frame-23 */
+.frame-23 #hotspot0		{ left: 728px;	top: 280px; }
+.frame-23 #hotspot6		{ left: 225px;	top: 245px; }
+.frame-23 #hotspot9		{ left: 360px;	top: 300px; }
+.frame-23 #hotspot10	{ left: 524px;	top: 314px; }
+.frame-23 #hotspot11	{ left: 665px;	top: 223px; }
+.frame-23 #hotspot12	{ left: 682px;	top: 261px; }
+/* frame-24 */
+.frame-24 #hotspot0		{ left: 688px;	top: 280px; }
+.frame-24 #hotspot6		{ left: 242px;	top: 245px; }
+.frame-24 #hotspot9		{ left: 365px;	top: 300px; }
+.frame-24 #hotspot10	{ left: 469px;	top: 314px; }
+.frame-24 #hotspot11	{ left: 635px;	top: 223px; }
+.frame-24 #hotspot12	{ left: 640px;	top: 261px; }
+/* frame-25 */
+.frame-25 #hotspot0		{ left: 631px;	top: 280px; }
+.frame-25 #hotspot6		{ left: 264px;	top: 245px; }
+.frame-25 #hotspot9		{ left: 370px;	top: 300px; }
+.frame-25 #hotspot10	{ left: 415px;	top: 314px; }
+.frame-25 #hotspot11	{ left: 576px;	top: 223px; }
+.frame-25 #hotspot12	{ left: 572px;	top: 261px; }
+/* frame-26 */
+.frame-26 #hotspot0		{ left: 567px;	top: 280px; }
+.frame-26 #hotspot6		{ left: 288px;	top: 245px; }
+.frame-26 #hotspot9		{ left: 454px;	top: 300px; }
+.frame-26 #hotspot10	{ left: 363px;	top: 314px; }
+.frame-26 #hotspot11	{ left: 534px;	top: 223px; }
+.frame-26 #hotspot12	{ left: 505px;	top: 261px; }
+/* frame-27 */
+.frame-27 #hotspot0		{ left: 497px;	top: 280px; }
+.frame-27 #hotspot6		{ left: 319px;	top: 245px; }
+.frame-27 #hotspot9		{ left: 406px;	top: 300px; }
+.frame-27 #hotspot10	{ left: 318px;	top: 314px; }
+.frame-27 #hotspot11	{ left: 490px;	top: 223px; }
+/* frame-28 */
+.frame-28 #hotspot0		{ left: 419px;	top: 280px; }
+.frame-28 #hotspot6		{ left: 349px;	top: 245px; }
+.frame-28 #hotspot11	{ left: 438px;	top: 223px; }
+/* frame-29 */
+.frame-29 #hotspot0		{ left: 352px;	top: 280px; }
+.frame-29 #hotspot6		{ left: 542px;	top: 245px; }
+.frame-29 #hotspot10	{ left: 557px;	top: 314px; }
+.frame-29 #hotspot11	{ left: 385px;	top: 223px; }
+/* frame-30 */
+.frame-30 #hotspot0		{ left: 286px;	top: 280px; }
+.frame-30 #hotspot6		{ left: 572px;	top: 245px; }
+.frame-30 #hotspot9		{ left: 464px;	top: 300px; }
+.frame-30 #hotspot10	{ left: 517px;	top: 314px; }
+.frame-30 #hotspot11	{ left: 345px;	top: 223px; }
+.frame-30 #hotspot12	{ left: 339px;	top: 261px; }
+/* frame-31 */
+.frame-31 #hotspot0		{ left: 227px;	top: 280px; }
+.frame-31 #hotspot6		{ left: 598px;	top: 245px; }
+.frame-31 #hotspot9		{ left: 551px;	top: 300px; }
+.frame-31 #hotspot10	{ left: 468px;	top: 314px; }
+.frame-31 #hotspot11	{ left: 306px;	top: 223px; }
+.frame-31 #hotspot12	{ left: 288px;	top: 261px; }
+/* frame-32 */
+.frame-32 #hotspot0		{ left: 182px;	top: 280px; }
+.frame-32 #hotspot6		{ left: 620px;	top: 245px; }
+.frame-32 #hotspot9		{ left: 558px;	top: 300px; }
+.frame-32 #hotspot10	{ left: 417px;	top: 314px; }
+.frame-32 #hotspot11	{ left: 266px;	top: 223px; }
+.frame-32 #hotspot12	{ left: 237px;	top: 261px; }
+/* frame-33 */
+.frame-33 #hotspot0		{ left: 150px;	top: 280px; }
+.frame-33 #hotspot6		{ left: 639px;	top: 245px; }
+.frame-33 #hotspot9		{ left: 563px;	top: 300px; }
+.frame-33 #hotspot10	{ left: 362px;	top: 314px; }
+.frame-33 #hotspot11	{ left: 240px;	top: 223px; }
+.frame-33 #hotspot12	{ left: 215px;	top: 261px; }
+/* frame-34 */
+.frame-34 #hotspot0		{ left: 129px;	top: 280px; }
+.frame-34 #hotspot6		{ left: 653px;	top: 245px; }
+.frame-34 #hotspot9		{ left: 565px;	top: 300px; }
+.frame-34 #hotspot10	{ left: 312px;	top: 314px; }
+.frame-34 #hotspot11	{ left: 220px;	top: 223px; }
+.frame-34 #hotspot12	{ left: 195px;	top: 261px; }
+/* frame-35 */
+.frame-35 #hotspot0		{ left: 115px;	top: 280px; }
+.frame-35 #hotspot6		{ left: 660px;	top: 245px; }
+.frame-35 #hotspot9		{ left: 567px;	top: 300px; }
+.frame-35 #hotspot10	{ left: 266px;	top: 314px; }
+.frame-35 #hotspot11	{ left: 207px;	top: 223px; }
+.frame-35 #hotspot12	{ left: 175px;	top: 261px; }
+/* frame-36 */
+.frame-36 #hotspot0		{ left: 106px;	top: 280px; }
+.frame-36 #hotspot6		{ left: 661px;	top: 245px; }
+.frame-36 #hotspot9		{ left: 570px;	top: 300px; }
+.frame-36 #hotspot10	{ left: 227px;	top: 314px; }
+.frame-36 #hotspot11	{ left: 199px;	top: 223px; }
+.frame-36 #hotspot12	{ left: 171px;	top: 261px; }
+
+/*** tablet ***/
+@media (max-width:800px) {
+	/* tablet frame-1 */
+	.frame-1 #hotspot0		{ left: 68px;	top: 157px; }
+	.frame-1 #hotspot1		{ left: 111px;	top: 129px; }
+	.frame-1 #hotspot2		{ left: 167px;	top: 145px; }
+	.frame-1 #hotspot3		{ left: 202px;	top: 181px; }
+	.frame-1 #hotspot4		{ left: 245px;	top: 105px; }
+	.frame-1 #hotspot6		{ left: 375px;	top: 136px; }
+	/* tablet frame-2 */
+	.frame-2 #hotspot0		{ left: 70px;	top: 157px; }
+	.frame-2 #hotspot1		{ left: 109px;	top: 129px; }
+	.frame-2 #hotspot2		{ left: 164px;	top: 145px; }
+	.frame-2 #hotspot3		{ left: 205px;	top: 181px; }
+	.frame-2 #hotspot4		{ left: 233px;	top: 105px; }
+	.frame-2 #hotspot6		{ left: 366px;	top: 136px; }
+	/* tablet frame-3 */
+	.frame-3 #hotspot0		{ left: 80px;	top: 157px; }
+	.frame-3 #hotspot1		{ left: 114px;	top: 129px; }
+	.frame-3 #hotspot2		{ left: 157px;	top: 145px; }
+	.frame-3 #hotspot3		{ left: 207px;	top: 181px; }
+	.frame-3 #hotspot4		{ left: 215px;	top: 105px; }
+	.frame-3 #hotspot6		{ left: 353px;	top: 136px; }
+	/* tablet frame-4 */
+	.frame-4 #hotspot0		{ left: 94px;	top: 157px; }
+	.frame-4 #hotspot1		{ left: 132px;	top: 129px; }
+	.frame-4 #hotspot2		{ left: 155px;	top: 145px; }
+	.frame-4 #hotspot3		{ left: 209px;	top: 181px; }
+	.frame-4 #hotspot4		{ left: 205px;	top: 105px; }
+	.frame-4 #hotspot6		{ left: 334px;	top: 136px; }
+	/* tablet frame-5 */
+	.frame-5 #hotspot1		{ left: 135px;	top: 129px; }
+	.frame-5 #hotspot2		{ left: 142px;	top: 145px; }
+	.frame-5 #hotspot3		{ left: 214px;	top: 181px; }
+	.frame-5 #hotspot4		{ left: 267px;	top: 100px; }
+	.frame-5 #hotspot6		{ left: 312px;	top: 136px; }
+	.frame-5 #hotspot7		{ left: 162px;	top: 175px; }
+	/* tablet frame-6 */
+	.frame-6 #hotspot1		{ left: 158px;	top: 129px; }
+	.frame-6 #hotspot2		{ left: 163px;	top: 145px; }
+	.frame-6 #hotspot3		{ left: 221px;	top: 181px; }
+	.frame-6 #hotspot4		{ left: 243px;	top: 100px; }
+	.frame-6 #hotspot6		{ left: 286px;	top: 136px; }
+	.frame-6 #hotspot7		{ left: 166px;	top: 175px; }
+	/* tablet frame-7 */
+	.frame-7 #hotspot1		{ left: 180px;	top: 129px; }
+	.frame-7 #hotspot4		{ left: 217px;	top: 100px; }
+	.frame-7 #hotspot6		{ left: 260px;	top: 136px; }
+	.frame-7 #hotspot7		{ left: 170px;	top: 175px; }
+	/* tablet frame-8 */
+	.frame-8 #hotspot1		{ left: 186px;	top: 129px; }
+	.frame-8 #hotspot6		{ left: 233px;	top: 136px; }
+	.frame-8 #hotspot7		{ left: 175px;	top: 175px; }
+	.frame-8 #hotspot8		{ left: 204px;	top: 110px; }
+	/* tablet frame-9 */
+	.frame-9 #hotspot6		{ left: 206px;	top: 136px; }
+	.frame-9 #hotspot8		{ left: 210px;	top: 110px; }
+	.frame-9 #hotspot9		{ left: 310px;	top: 168px; }
+	/* tablet frame-10 */
+	.frame-10 #hotspot6		{ left: 181px;	top: 136px; }
+	.frame-10 #hotspot8		{ left: 217px;	top: 110px; }
+	.frame-10 #hotspot9		{ left: 291px;	top: 168px; }
+	/* tablet frame-11 */
+	.frame-11 #hotspot6		{ left: 281px;	top: 136px; }
+	.frame-11 #hotspot8		{ left: 225px;	top: 110px; }
+	.frame-11 #hotspot9		{ left: 246px;	top: 168px; }
+	/* tablet frame-12 */
+	.frame-12 #hotspot1		{ left: 325px;	top: 129px; }
+	.frame-12 #hotspot6		{ left: 256px;	top: 136px; }
+	.frame-12 #hotspot7		{ left: 314px;	top: 175px; }
+	.frame-12 #hotspot8		{ left: 233px;	top: 110px; }
+	.frame-12 #hotspot9		{ left: 225px;	top: 168px; }
+	/* tablet frame-13 */
+	.frame-13 #hotspot1		{ left: 340px;	top: 129px; }
+	.frame-13 #hotspot6		{ left: 230px;	top: 136px; }
+	.frame-13 #hotspot7		{ left: 320px;	top: 175px; }
+	.frame-13 #hotspot8		{ left: 242px;	top: 110px; }
+	.frame-13 #hotspot9		{ left: 208px;	top: 168px; }
+	/* tablet frame-14 */
+	.frame-14 #hotspot1		{ left: 358px;	top: 129px; }
+	.frame-14 #hotspot3		{ left: 291px;	top: 181px; }
+	.frame-14 #hotspot6		{ left: 204px;	top: 136px; }
+	.frame-14 #hotspot7		{ left: 333px;	top: 175px; }
+	.frame-14 #hotspot8		{ left: 252px;	top: 110px; }
+	.frame-14 #hotspot9		{ left: 185px;	top: 168px; }
+	/* tablet frame-15 */
+	.frame-15 #hotspot1		{ left: 380px;	top: 129px; }
+	.frame-15 #hotspot3		{ left: 293px;	top: 181px; }
+	.frame-15 #hotspot6		{ left: 180px;	top: 136px; }
+	.frame-15 #hotspot7		{ left: 339px;	top: 175px; }
+	.frame-15 #hotspot8		{ left: 259px;	top: 110px; }
+	.frame-15 #hotspot9		{ left: 175px;	top: 168px; }
+	/* tablet frame-16 */
+	.frame-16 #hotspot1		{ left: 395px;	top: 129px; }
+	.frame-16 #hotspot3		{ left: 298px;	top: 181px; }
+	.frame-16 #hotspot6		{ left: 159px;	top: 136px; }
+	.frame-16 #hotspot7		{ left: 351px;	top: 175px; }
+	.frame-16 #hotspot8		{ left: 270px;	top: 110px; }
+	.frame-16 #hotspot9		{ left: 141px;	top: 168px; }
+	/* tablet frame-17 */
+	.frame-17 #hotspot1		{ left: 402px;	top: 129px; }
+	.frame-17 #hotspot3		{ left: 302px;	top: 181px; }
+	.frame-17 #hotspot6		{ left: 142px;	top: 136px; }
+	.frame-17 #hotspot7		{ left: 356px;	top: 175px; }
+	.frame-17 #hotspot8		{ left: 278px;	top: 110px; }
+	/* tablet frame-18 */
+	.frame-18 #hotspot0		{ left: 449px;	top: 157px; }
+	.frame-18 #hotspot1		{ left: 406px;	top: 129px; }
+	.frame-18 #hotspot3		{ left: 306px;	top: 181px; }
+	.frame-18 #hotspot4		{ left: 252px;	top: 105px; }
+	.frame-18 #hotspot6		{ left: 128px;	top: 136px; }
+	/* tablet frame-19 */
+	.frame-19 #hotspot0		{ left: 446px;	top: 157px; }
+	.frame-19 #hotspot1		{ left: 409px;	top: 129px; }
+	.frame-19 #hotspot3		{ left: 309px;	top: 181px; }
+	.frame-19 #hotspot4		{ left: 239px;	top: 105px; }
+	.frame-19 #hotspot6		{ left: 120px;	top: 136px; }
+	/* tablet frame-20 */
+	.frame-20 #hotspot0		{ left: 442px;	top: 157px; }
+	.frame-20 #hotspot1		{ left: 404px;	top: 129px; }
+	.frame-20 #hotspot3		{ left: 308px;	top: 181px; }
+	.frame-20 #hotspot4		{ left: 223px;	top: 105px; }
+	.frame-20 #hotspot6		{ left: 116px;	top: 136px; }
+	/* tablet frame-21 */
+	.frame-21 #hotspot0		{ left: 447px;	top: 157px; }
+	.frame-21 #hotspot1		{ left: 392px;	top: 129px; }
+	.frame-21 #hotspot3		{ left: 306px;	top: 181px; }
+	.frame-21 #hotspot4		{ left: 209px;	top: 105px; }
+	.frame-21 #hotspot6		{ left: 114px;	top: 136px; }
+	/* tablet frame-22 */
+	.frame-22 #hotspot0		{ left: 435px;	top: 157px; }
+	.frame-22 #hotspot1		{ left: 379px;	top: 129px; }
+	.frame-22 #hotspot3		{ left: 300px;	top: 181px; }
+	.frame-22 #hotspot4		{ left: 193px;	top: 105px; }
+	.frame-22 #hotspot6		{ left: 117px;	top: 136px; }
+	/* tablet frame-23 */
+	.frame-23 #hotspot0		{ left: 419px;	top: 157px; }
+	.frame-23 #hotspot6		{ left: 123px;	top: 136px; }
+	.frame-23 #hotspot9		{ left: 210px;	top: 168px; }
+	.frame-23 #hotspot10	{ left: 298px;	top: 173px; }
+	.frame-23 #hotspot11	{ left: 376px;	top: 121px; }
+	.frame-23 #hotspot12	{ left: 388px;	top: 143px; }
+	/* tablet frame-24 */
+	.frame-24 #hotspot0		{ left: 398px;	top: 157px; }
+	.frame-24 #hotspot6		{ left: 133px;	top: 136px; }
+	.frame-24 #hotspot9		{ left: 215px;	top: 168px; }
+	.frame-24 #hotspot10	{ left: 268px;	top: 173px; }
+	.frame-24 #hotspot11	{ left: 363px;	top: 121px; }
+	.frame-24 #hotspot12	{ left: 363px;	top: 143px; }
+	/* tablet frame-25 */
+	.frame-25 #hotspot0		{ left: 362px;	top: 157px; }
+	.frame-25 #hotspot6		{ left: 146px;	top: 136px; }
+	.frame-25 #hotspot9		{ left: 220px;	top: 168px; }
+	.frame-25 #hotspot10	{ left: 237px;	top: 173px; }
+	.frame-25 #hotspot11	{ left: 330px;	top: 121px; }
+	.frame-25 #hotspot12	{ left: 329px;	top: 143px; }
+	/* tablet frame-26 */
+	.frame-26 #hotspot0		{ left: 325px;	top: 157px; }
+	.frame-26 #hotspot6		{ left: 161px;	top: 136px; }
+	.frame-26 #hotspot9		{ left: 262px;	top: 168px; }
+	.frame-26 #hotspot10	{ left: 207px;	top: 173px; }
+	.frame-26 #hotspot11	{ left: 305px;	top: 121px; }
+	.frame-26 #hotspot12	{ left: 291px;	top: 143px; }
+	/* tablet frame-27 */
+	.frame-27 #hotspot0		{ left: 286px;	top: 157px; }
+	.frame-27 #hotspot6		{ left: 178px;	top: 136px; }
+	.frame-27 #hotspot9		{ left: 234px;	top: 168px; }
+	.frame-27 #hotspot10	{ left: 181px;	top: 173px; }
+	.frame-27 #hotspot11	{ left: 280px;	top: 121px; }
+	/* tablet frame-28 */
+	.frame-28 #hotspot0		{ left: 240px;	top: 157px; }
+	.frame-28 #hotspot6		{ left: 196px;	top: 136px; }
+	.frame-28 #hotspot11	{ left: 246px;	top: 121px; }
+	/* tablet frame-29 */
+	.frame-29 #hotspot0		{ left: 200px;	top: 157px; }
+	.frame-29 #hotspot6		{ left: 308px;	top: 136px; }
+	.frame-29 #hotspot10	{ left: 318px;	top: 173px; }
+	.frame-29 #hotspot11	{ left: 213px;	top: 121px; }
+	/* tablet frame-30 */
+	.frame-30 #hotspot0		{ left: 163px;	top: 157px; }
+	.frame-30 #hotspot6		{ left: 326px;	top: 136px; }
+	.frame-30 #hotspot9		{ left: 268px;	top: 168px; }
+	.frame-30 #hotspot10	{ left: 294px;	top: 173px; }
+	.frame-30 #hotspot11	{ left: 188px;	top: 121px; }
+	.frame-30 #hotspot12	{ left: 192px;	top: 143px; }
+	/* tablet frame-31 */
+	.frame-31 #hotspot0		{ left: 128px;	top: 157px; }
+	.frame-31 #hotspot6		{ left: 341px;	top: 136px; }
+	.frame-31 #hotspot9		{ left: 316px;	top: 168px; }
+	.frame-31 #hotspot10	{ left: 266px;	top: 173px; }
+	.frame-31 #hotspot11	{ left: 170px;	top: 121px; }
+	.frame-31 #hotspot12	{ left: 163px;	top: 143px; }
+	/* tablet frame-32 */
+	.frame-32 #hotspot0		{ left: 103px;	top: 157px; }
+	.frame-32 #hotspot6		{ left: 355px;	top: 136px; }
+	.frame-32 #hotspot9		{ left: 319px;	top: 168px; }
+	.frame-32 #hotspot10	{ left: 235px;	top: 173px; }
+	.frame-32 #hotspot11	{ left: 150px;	top: 121px; }
+	.frame-32 #hotspot12	{ left: 134px;	top: 143px; }
+	/* tablet frame-33 */
+	.frame-33 #hotspot0		{ left: 85px;	top: 157px; }
+	.frame-33 #hotspot6		{ left: 367px;	top: 136px; }
+	.frame-33 #hotspot9		{ left: 323px;	top: 168px; }
+	.frame-33 #hotspot10	{ left: 205px;	top: 173px; }
+	.frame-33 #hotspot11	{ left: 133px;	top: 121px; }
+	.frame-33 #hotspot12	{ left: 122px;	top: 143px; }
+	/* tablet frame-34 */
+	.frame-34 #hotspot0		{ left: 71px;	top: 157px; }
+	.frame-34 #hotspot6		{ left: 374px;	top: 136px; }
+	.frame-34 #hotspot9		{ left: 327px;	top: 168px; }
+	.frame-34 #hotspot10	{ left: 175px;	top: 173px; }
+	.frame-34 #hotspot11	{ left: 117px;	top: 121px; }
+	.frame-34 #hotspot12	{ left: 111px;	top: 143px; }
+	/* tablet frame-35 */
+	.frame-35 #hotspot0		{ left: 65px;	top: 157px; }
+	.frame-35 #hotspot6		{ left: 379px;	top: 136px; }
+	.frame-35 #hotspot9		{ left: 329px;	top: 168px; }
+	.frame-35 #hotspot10	{ left: 149px;	top: 173px; }
+	.frame-35 #hotspot11	{ left: 113px;	top: 121px; }
+	.frame-35 #hotspot12	{ left: 103px;	top: 143px; }
+	/* tablet frame-36 */
+	.frame-36 #hotspot0		{ left: 62px;	top: 157px; }
+	.frame-36 #hotspot6		{ left: 380px;	top: 136px; }
+	.frame-36 #hotspot9		{ left: 331px;	top: 168px; }
+	.frame-36 #hotspot10	{ left: 127px;	top: 173px; }
+	.frame-36 #hotspot11	{ left: 109px;	top: 121px; }
+	.frame-36 #hotspot12	{ left: 97px;	top: 143px; }
+}
+
+/*** mobile ***/
+@media (max-width:420px) {
+	/* mobile frame-1 */
+	.frame-1 #hotspot0		{ left: 30px;	top: 93px; }
+	.frame-1 #hotspot1		{ left: 56px;	top: 80px; }
+	.frame-1 #hotspot2		{ left: 100px;	top: 90px; }
+	.frame-1 #hotspot3		{ left: 134px;	top: 104px; }
+	.frame-1 #hotspot4		{ left: 160px;	top: 69px; }
+	.frame-1 #hotspot6		{ left: 211px;	top: 79px; }
+	/* mobile frame-2 */
+	.frame-2 #hotspot0		{ left: 34px;	top: 93px; }
+	.frame-2 #hotspot1		{ left: 58px;	top: 80px; }
+	.frame-2 #hotspot2		{ left: 101px;	top: 90px; }
+	.frame-2 #hotspot3		{ left: 133px;	top: 104px; }
+	.frame-2 #hotspot4		{ left: 149px;	top: 69px; }
+	.frame-2 #hotspot6		{ left: 206px;	top: 79px; }
+	/* mobile frame-3 */
+	.frame-3 #hotspot0		{ left: 37px;	top: 93px; }
+	.frame-3 #hotspot1		{ left: 61px;	top: 80px; }
+	.frame-3 #hotspot2		{ left: 102px;	top: 90px; }
+	.frame-3 #hotspot3		{ left: 133px;	top: 104px; }
+	.frame-3 #hotspot4		{ left: 139px;	top: 69px; }
+	.frame-3 #hotspot6		{ left: 198px;	top: 79px; }
+	/* mobile frame-4 */
+	.frame-4 #hotspot0		{ left: 40px;	top: 93px; }
+	.frame-4 #hotspot1		{ left: 67px;	top: 80px; }
+	.frame-4 #hotspot2		{ left: 104px;	top: 90px; }
+	.frame-4 #hotspot3		{ left: 132px;	top: 104px; }
+	.frame-4 #hotspot4		{ left: 130px;	top: 69px; }
+	.frame-4 #hotspot6		{ left: 188px;	top: 79px; }
+	/* mobile frame-5 */
+	.frame-5 #hotspot1		{ left: 68px;	top: 80px; }
+	.frame-5 #hotspot2		{ left: 115px;	top: 90px; }
+	.frame-5 #hotspot3		{ left: 132px;	top: 104px; }
+	.frame-5 #hotspot4		{ left: 150px;	top: 66px; }
+	.frame-5 #hotspot6		{ left: 176px;	top: 79px; }
+	.frame-5 #hotspot7		{ left: 87px;	top: 103px; }
+	/* mobile frame-6 */
+	.frame-6 #hotspot1		{ left: 78px;	top: 80px; }
+	.frame-6 #hotspot2		{ left: 124px;	top: 90px; }
+	.frame-6 #hotspot3		{ left: 131px;	top: 104px; }
+	.frame-6 #hotspot4		{ left: 136px;	top: 66px; }
+	.frame-6 #hotspot6		{ left: 161px;	top: 79px; }
+	.frame-6 #hotspot7		{ left: 93px;	top: 103px; }
+	/* mobile frame-7 */
+	.frame-7 #hotspot1		{ left: 86px;	top: 80px; }
+	.frame-7 #hotspot4		{ left: 123px;	top: 66px; }
+	.frame-7 #hotspot6		{ left: 145px;	top: 79px; }
+	.frame-7 #hotspot7		{ left: 99px;	top: 103px; }
+	/* mobile frame-8 */
+	.frame-8 #hotspot1		{ left: 92px;	top: 80px; }
+	.frame-8 #hotspot6		{ left: 127px;	top: 79px; }
+	.frame-8 #hotspot7		{ left: 103px;	top: 103px; }
+	.frame-8 #hotspot8		{ left: 111px;	top: 67px; }
+	.frame-8 #hotspot9		{ left: 170px;	top: 105px; }
+	/* mobile frame-9 */
+	.frame-9 #hotspot6		{ left: 111px;	top: 89px; }
+	.frame-9 #hotspot8		{ left: 113px;	top: 67px; }
+	.frame-9 #hotspot9		{ left: 154px;	top: 105px; }
+	/* mobile frame-10 */
+	.frame-10 #hotspot6		{ left: 95px;	top: 89px; }
+	.frame-10 #hotspot8		{ left: 115px;	top: 67px; }
+	.frame-10 #hotspot9		{ left: 140px;	top: 105px; }
+	/* mobile frame-11 */
+	.frame-11 #hotspot6		{ left: 156px;	top: 89px; }
+	.frame-11 #hotspot8		{ left: 119px;	top: 67px; }
+	.frame-11 #hotspot9		{ left: 122px;	top: 105px; }
+	/* mobile frame-12 */
+	.frame-12 #hotspot1		{ left: 175px;	top: 80px; }
+	.frame-12 #hotspot6		{ left: 140px;	top: 89px; }
+	.frame-12 #hotspot7		{ left: 167px;	top: 103px; }
+	.frame-12 #hotspot8		{ left: 121px;	top: 67px; }
+	.frame-12 #hotspot9		{ left: 110px;	top: 105px; }
+	/* mobile frame-13 */
+	.frame-13 #hotspot1		{ left: 184px;	top: 80px; }
+	.frame-13 #hotspot6		{ left: 123px;	top: 89px; }
+	.frame-13 #hotspot7		{ left: 171px;	top: 103px; }
+	.frame-13 #hotspot8		{ left: 124px;	top: 67px; }
+	.frame-13 #hotspot9		{ left: 98px;	top: 105px; }
+	/* mobile frame-14 */
+	.frame-14 #hotspot1		{ left: 190px;	top: 80px; }
+	.frame-14 #hotspot3		{ left: 134px;	top: 104px; }
+	.frame-14 #hotspot6		{ left: 105px;	top: 89px; }
+	.frame-14 #hotspot7		{ left: 176px;	top: 103px; }
+	.frame-14 #hotspot8		{ left: 127px;	top: 67px; }
+	.frame-14 #hotspot9		{ left: 80px;	top: 105px; }
+	/* mobile frame-15 */
+	.frame-15 #hotspot1		{ left: 202px;	top: 80px; }
+	.frame-15 #hotspot3		{ left: 134px;	top: 104px; }
+	.frame-15 #hotspot6		{ left: 90px;	top: 89px; }
+	.frame-15 #hotspot7		{ left: 180px;	top: 103px; }
+	.frame-15 #hotspot8		{ left: 132px;	top: 67px; }
+	.frame-15 #hotspot9		{ left: 108px;	top: 102px; }
+	/* mobile frame-16 */
+	.frame-16 #hotspot1		{ left: 207px;	top: 80px; }
+	.frame-16 #hotspot3		{ left: 135px;	top: 104px; }
+	.frame-16 #hotspot6		{ left: 76px;	top: 89px; }
+	.frame-16 #hotspot7		{ left: 183px;	top: 103px; }
+	.frame-16 #hotspot8		{ left: 136px;	top: 67px; }
+	.frame-16 #hotspot9		{ left: 98px;	top: 102px; }
+	/* mobile frame-17 */
+	.frame-17 #hotspot1		{ left: 210px;	top: 80px; }
+	.frame-17 #hotspot3		{ left: 134px;	top: 104px; }
+	.frame-17 #hotspot6		{ left: 65px;	top: 89px; }
+	.frame-17 #hotspot7		{ left: 189px;	top: 103px; }
+	.frame-17 #hotspot8		{ left: 139px;	top: 67px; }
+	.frame-17 #hotspot9		{ left: 93px;	top: 102px; }
+	/* mobile frame-18 */
+	.frame-18 #hotspot0		{ left: 234px;	top: 93px; }
+	.frame-18 #hotspot1		{ left: 213px;	top: 80px; }
+	.frame-18 #hotspot3		{ left: 133px;	top: 104px; }
+	.frame-18 #hotspot4		{ left: 131px;	top: 68px; }
+	.frame-18 #hotspot6		{ left: 57px;	top: 89px; }
+	.frame-18 #hotspot9		{ left: 85px;	top: 102px; }
+	/* mobile frame-19 */
+	.frame-19 #hotspot0		{ left: 236px;	top: 93px; }
+	.frame-19 #hotspot1		{ left: 210px;	top: 80px; }
+	.frame-19 #hotspot3		{ left: 131px;	top: 104px; }
+	.frame-19 #hotspot4		{ left: 120px;	top: 68px; }
+	.frame-19 #hotspot6		{ left: 51px;	top: 89px; }
+	.frame-19 #hotspot9		{ left: 78px;	top: 102px; }
+	/* mobile frame-20 */
+	.frame-20 #hotspot0		{ left: 234px;	top: 93px; }
+	.frame-20 #hotspot1		{ left: 207px;	top: 80px; }
+	.frame-20 #hotspot3		{ left: 130px;	top: 104px; }
+	.frame-20 #hotspot4		{ left: 113px;	top: 68px; }
+	.frame-20 #hotspot6		{ left: 49px;	top: 89px; }
+	.frame-20 #hotspot9		{ left: 76px;	top: 102px; }
+	/* mobile frame-21 */
+	.frame-21 #hotspot0		{ left: 233px;	top: 93px; }
+	.frame-21 #hotspot1		{ left: 205px;	top: 80px; }
+	.frame-21 #hotspot3		{ left: 129px;	top: 104px; }
+	.frame-21 #hotspot4		{ left: 105px;	top: 68px; }
+	.frame-21 #hotspot6		{ left: 50px;	top: 89px; }
+	.frame-21 #hotspot9		{ left: 78px;	top: 102px; }
+	/* mobile frame-22 */
+	.frame-22 #hotspot0		{ left: 230px;	top: 95px; }
+	.frame-22 #hotspot1		{ left: 202px;	top: 80px; }
+	.frame-22 #hotspot3		{ left: 129px;	top: 104px; }
+	.frame-22 #hotspot4		{ left: 96px;	top: 68px; }
+	.frame-22 #hotspot6		{ left: 53px;	top: 89px; }
+	.frame-22 #hotspot9		{ left: 80px;	top: 102px; }
+	/* mobile frame-23 */
+	.frame-23 #hotspot0		{ left: 221px;	top: 97px; }
+	.frame-23 #hotspot6		{ left: 57px;	top: 89px; }
+	.frame-23 #hotspot10	{ left: 153px;	top: 104px; }
+	.frame-23 #hotspot11	{ left: 200px;	top: 76px; }
+	.frame-23 #hotspot12	{ left: 202px;	top: 93px; }
+	/* mobile frame-24 */
+	.frame-24 #hotspot0		{ left: 210px;	top: 98px; }
+	.frame-24 #hotspot6		{ left: 62px;	top: 89px; }
+	.frame-24 #hotspot10	{ left: 139px;	top: 104px; }
+	.frame-24 #hotspot11	{ left: 195px;	top: 76px; }
+	.frame-24 #hotspot12	{ left: 187px;	top: 93px; }
+	/* mobile frame-25 */
+	.frame-25 #hotspot0		{ left: 195px;	top: 99px; }
+	.frame-25 #hotspot6		{ left: 71px;	top: 89px; }
+	.frame-25 #hotspot10	{ left: 122px;	top: 104px; }
+	.frame-25 #hotspot11	{ left: 186px;	top: 76px; }
+	.frame-25 #hotspot12	{ left: 172px;	top: 93px; }
+	/* mobile frame-26 */
+	.frame-26 #hotspot0		{ left: 176px;	top: 99px; }
+	.frame-26 #hotspot6		{ left: 81px;	top: 89px; }
+	.frame-26 #hotspot10	{ left: 105px;	top: 104px; }
+	.frame-26 #hotspot11	{ left: 175px;	top: 76px; }
+	.frame-26 #hotspot12	{ left: 150px;	top: 93px; }
+	/* mobile frame-27 */
+	.frame-27 #hotspot0		{ left: 158px;	top: 99px; }
+	.frame-27 #hotspot6		{ left: 95px;	top: 89px; }
+	.frame-27 #hotspot10	{ left: 92px;	top: 104px; }
+	.frame-27 #hotspot11	{ left: 161px;	top: 76px; }
+	/* mobile frame-28 */
+	.frame-28 #hotspot0		{ left: 135px;	top: 99px; }
+	.frame-28 #hotspot6		{ left: 106px;	top: 89px; }
+	.frame-28 #hotspot11	{ left: 144px;	top: 76px; }
+	/* mobile frame-29 */
+	.frame-29 #hotspot0		{ left: 114px;	top: 99px; }
+	.frame-29 #hotspot6		{ left: 173px;	top: 83px; }
+	.frame-29 #hotspot10	{ left: 175px;	top: 104px; }
+	.frame-29 #hotspot11	{ left: 128px;	top: 76px; }
+	/* mobile frame-30 */
+	.frame-30 #hotspot0		{ left: 93px;	top: 99px; }
+	.frame-30 #hotspot6		{ left: 184px;	top: 83px; }
+	.frame-30 #hotspot10	{ left: 172px;	top: 104px; }
+	.frame-30 #hotspot11	{ left: 114px;	top: 76px; }
+	.frame-30 #hotspot12	{ left: 122px;	top: 93px; }
+	/* mobile frame-31 */
+	.frame-31 #hotspot0		{ left: 77px;	top: 99px; }
+	.frame-31 #hotspot6		{ left: 194px;	top: 83px; }
+	.frame-31 #hotspot10	{ left: 160px;	top: 104px; }
+	.frame-31 #hotspot11	{ left: 102px;	top: 76px; }
+	.frame-31 #hotspot12	{ left: 110px;	top: 93px; }
+	/* mobile frame-32 */
+	.frame-32 #hotspot0		{ left: 58px;	top: 99px; }
+	.frame-32 #hotspot6		{ left: 203px;	top: 83px; }
+	.frame-32 #hotspot10	{ left: 142px;	top: 104px; }
+	.frame-32 #hotspot11	{ left: 89px;	top: 76px; }
+	.frame-32 #hotspot12	{ left: 97px;	top: 93px; }
+	/* mobile frame-33 */
+	.frame-33 #hotspot0		{ left: 48px;	top: 99px; }
+	.frame-33 #hotspot6		{ left: 212px;	top: 83px; }
+	.frame-33 #hotspot10	{ left: 122px;	top: 104px; }
+	.frame-33 #hotspot11	{ left: 79px;	top: 76px; }
+	.frame-33 #hotspot12	{ left: 90px;	top: 93px; }
+	/* mobile frame-34 */
+	.frame-34 #hotspot0		{ left: 40px;	top: 99px; }
+	.frame-34 #hotspot3		{ left: 140px;	top: 104px; }
+	.frame-34 #hotspot4		{ left: 191px;	top: 68px; }
+	.frame-34 #hotspot6		{ left: 215px;	top: 83px; }
+	.frame-34 #hotspot10	{ left: 102px;	top: 104px; }
+	.frame-34 #hotspot11	{ left: 72px;	top: 76px; }
+	.frame-34 #hotspot12	{ left: 84px;	top: 93px; }
+	/* mobile frame-35 */
+	.frame-35 #hotspot0		{ left: 36px;	top: 99px; }
+	.frame-35 #hotspot3		{ left: 141px;	top: 104px; }
+	.frame-35 #hotspot4		{ left: 182px;	top: 68px; }
+	.frame-35 #hotspot6		{ left: 219px;	top: 83px; }
+	.frame-35 #hotspot10	{ left: 85px;	top: 104px; }
+	.frame-35 #hotspot11	{ left: 67px;	top: 76px; }
+	.frame-35 #hotspot12	{ left: 72px;	top: 93px; }
+	/* mobile frame-36 */
+	.frame-36 #hotspot0		{ left: 33px;	top: 96px; }
+	.frame-36 #hotspot3		{ left: 140px;	top: 104px; }
+	.frame-36 #hotspot4		{ left: 171px;	top: 68px; }
+	.frame-36 #hotspot6		{ left: 218px;	top: 83px; }
+	.frame-36 #hotspot10	{ left: 71px;	top: 104px; }
+	.frame-36 #hotspot11	{ left: 64px;	top: 76px; }
+	.frame-36 #hotspot12	{ left: 60px;	top: 93px; }
+}
